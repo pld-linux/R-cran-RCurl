@@ -3,7 +3,7 @@
 Summary:	General network (HTTP/FTP/...) client interface for R
 Name:		R-cran-%{modulename}
 Version:	1.95r4.1
-Release:	1
+Release:	2
 License:	BSD
 Group:		Applications/Network
 Source0:	http://cran.r-project.org/src/contrib/%{modulename}_%{fversion}.tar.gz
