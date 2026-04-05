@@ -2,13 +2,13 @@
 %define		modulename	RCurl
 Summary:	General network (HTTP/FTP/...) client interface for R
 Name:		R-cran-%{modulename}
-Version:	1.95r4.1
-Release:	2
+Version:	1.98r1.18
+Release:	1
 License:	BSD
 Group:		Applications/Network
-Source0:	http://cran.r-project.org/src/contrib/%{modulename}_%{fversion}.tar.gz
-# Source0-md5:	ae05762f9dceb92e9aa95417399ce931
-BuildRequires:	R >= 2.8.1
+Source0:	https://cran.r-project.org/src/contrib/%{modulename}_%{fversion}.tar.gz
+# Source0-md5:	be5cb3504e393742f355da7289809dd8
+BuildRequires:	R >= 3.4.0
 BuildRequires:	R-cran-bitops
 BuildRequires:	texlive-fonts-cmsuper
 BuildRequires:	texlive-latex-ae
